@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFEEC - Streetwear Fashion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <img src="images/logoafeec.png" alt="AFEEC Logo" class="logo-img">
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#blog">Blog</a>
+            <a href="#shop">Shop</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="icons">
+            <label for="search-toggle">
+                <i class="fas fa-search"></i>
+            </label>
+            <input type="checkbox" id="search-toggle">
+            <div class="search-box">
+                <input type="text" placeholder="Search products...">
+            </div>
+            <a href="#login-modal"><i class="fas fa-user"></i></a>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="content-section">
+        <!-- Left side: Text content -->
+        <div class="text-content">
+            <img src="images/logoafeec.png" alt="AFEEC" class="hero-logo">
+            <p>New Outfit for this Year</p>
+            <h1><span style="color: #999;">FRESH LOOK,</span> FRESH DEALS</h1>
+            <h4>Your Wardrobe's Glow-up Starts here - Up to 70% Off</h4>
+            <button class="shop-btn">SHOP NOW</button>
+        </div>
+        
+        <!-- Right side: Featured image -->
+        <img src="images/featuredproduct.png" alt="AFEEC Models" class="right-img">
+    </section>
+
+    <!-- New Release Section -->
+    <h2 class="title">New Release</h2>
+    <div class="product-grid">
+        <!-- Product Card 1 -->
+        <div class="product-card">
+            <img src="images/skatersould.png" alt="Skater Soul Graphic Tee">
+            <h3>Skater Soul Graphic Tee</h3>
+            <h5>Black cotton t-shirt with a large graphic print showing a skull and skateboard. Standard fit with short sleeves.</h5>
+            <p class="price">₱599.00</p>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="product-card">
+            <img src="images/chaosclowntee.png" alt="Chaos Clown Tee">
+            <h3>Chaos Clown Tee</h3>
+            <h5>Black cotton t-shirt featuring a red and white graphic of a clown face. Relaxed fit, short sleeves.</h5>
+            <p class="price">₱599.00</p>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="product-card">
+            <img src="images/ashfadebite.jpg" alt="AshModo Bite Tee">
+            <h3>AshModo Bite Tee</h3>
+            <h5>Beige cotton t-shirt with a blank print showing an open mouth and teeth. Standard fit with short sleeves.</h5>
+            <p class="price">₱599.00</p>
+        </div>
+
+        <!-- Product Card 4 -->
+        <div class="product-card">
+            <img src="images/skatervewcrop.png" alt="Skater Crew Crop Tee">
+            <h3>Skater Crew Crop Tee</h3>
+            <h5>Black cropped t-shirt with a white graphic print of a figure. Relaxed fit with short sleeves.</h5>
+            <p class="price">₱499.00</p>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <h2>About Us</h2>
+        <p>Welcome to <strong>AFEEC</strong> – your go-to destination for modern streetwear and stylish apparel. We believe fashion should be comfortable, expressive, and accessible for everyone. Every collection we design is made to bring confidence and creativity to your everyday look.</p>
+        <p>From trendy tops to timeless accessories, <strong>AFEEC</strong> represents individuality, passion, and the love for bold fashion. Be part of our growing community and wear your story with pride.</p>
+        <div class="button-container">
+            <button class="cta-about">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <h2 class="title">Why Choose Us</h2>
+    <div class="categories">
+        <div class="category-box">
+            <i class="fas fa-tshirt"></i>
+            <h3>Very Soft Fabric</h3>
+            <p>Made with smooth and comfy material that feels great on your skin.</p>
+        </div>
+        <div class="category-box">
+            <i class="fas fa-cut"></i>
+            <h3>Durable Quality</h3>
+            <p>Designed to last. Does not get dirty easily even after repeated use.</p>
+        </div>
+        <div class="category-box">
+            <i class="fas fa-wind"></i>
+            <h3>Skin-Friendly</h3>
+            <p>Safe and gentle for all skin types, perfect for everyday wear.</p>
+        </div>
+        <div class="category-box">
+            <i class="fas fa-heart"></i>
+            <h3>Made with Care</h3>
+            <p>Each piece is crafted with love and attention to detail for your comfort.</p>
+        </div>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="login-modal">
+        <div class="login-box">
+            <img src="images/logoafeec.png" alt="AFEEC Logo" class="logo">
+            <h2>Login</h2>
+            <input type="text" placeholder="Username or Email">
+            <input type="password" placeholder="Password">
+            <button class="btn">Login</button>
+            <div class="links">
+                <a href="#">Forgot Password?</a>
+                <a href="#">Create Account</a>
+            </div>
+            <a href="#" class="close-btn">Close</a>
+        </div>
+    </div>
+</body>
+</html>
+
